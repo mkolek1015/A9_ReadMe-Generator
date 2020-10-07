@@ -1,5 +1,3 @@
-// function to generate markdown for README
-// look into markdown cheatsheet to figure out how to write markdown
 function generateMarkdown(data) {
   let badges = "https://img.shields.io/badge/license-MIT-red";
   if (data.license == "Apache") {
@@ -41,5 +39,3 @@ GitHub: https://github.com/${data.username}
 
 `;
 }
-
-module.exports = generateMarkdown;

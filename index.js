@@ -80,7 +80,7 @@ inquirer.prompt([
             ]
         }
 ]).then(function writeToFile(){
-    fs.writeFile("README.md", "text here", function (err) {
+    fs.writeFile("README.md", generateMarkdown, function (err) {
       
           if (err) {
             return console.log(err);
