@@ -11,9 +11,15 @@ Because this is a command-line application that won’t be deployed, you’ll al
 
 Screen Shots of the VSCode as well as the ReadMe File
 
-![Questions Prompt](/assests/Question Prompts.jpg)
-![ReadMe Markdown preview!](/assets/images/philly-magic-gardens.jpg "Philadelphia's Magic Gardens")
-![ReadMe Preview!](/assets/images/philly-magic-gardens.jpg "Philadelphia's Magic Gardens")
+![Questions Prompt](https://github.com/mkolek1015/A9_ReadMe-Generator/blob/main/assets/Question%20Prompts.jpg)
+![ReadMe Markdown preview!](https://github.com/mkolek1015/A9_ReadMe-Generator/blob/main/assets/ReadMe%20Markdown.jpg)
+![ReadMe Preview!](https://github.com/mkolek1015/A9_ReadMe-Generator/blob/main/assets/ReadMe%20Preview.jpg)
+
+Video of the Walk through:
+
+![Video Walk through](https://github.com/mkolek1015/A9_ReadMe-Generator/blob/main/ReadMe%20Generator%20Demo.mp4)
+
+
 
 
 ```
