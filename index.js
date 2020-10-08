@@ -52,8 +52,7 @@ inquirer.prompt([
         choices: [
             "MIT", 
             "APACHE 2.0", 
-            "GPL v3", 
-            "BSD 3", 
+            "GNU", 
             "No License"
             ]
         },
@@ -78,9 +77,17 @@ inquirer.prompt([
             "morse code",
             "carrier pigeon"
             ]
+        },
+        {
+            type: "input",
+            message: "What tests do you want to run?",
+            name: "tests",
         }
-]).then(function writeToFile(){
-    fs.writeFile("README.md", generateMarkdown, function (err) {
+]).then(answers => {
+    
+
+
+    fs.writeFile("README.md", generateMarkdown(answers), function (err) {
       
           if (err) {
             return console.log(err);
@@ -89,5 +96,5 @@ inquirer.prompt([
           console.log("ReadMe is created in folder!");
       
         });
-      });
       
+})

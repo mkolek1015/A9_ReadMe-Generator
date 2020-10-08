@@ -1,18 +1,8 @@
-function generateMarkdown(data) {
-  let badges = "https://img.shields.io/badge/license-MIT-red";
-  if (data.license == "Apache") {
-    badges = "https://img.shields.io/badge/license-Apache-red";
-  } else if (data.license == "GNU") {
-    badges = "https://img.shields.io/badge/license-GNU-red";
-  } else {
-    badges = "https://img.shields.io/badge/license-MIT-red"
-  };
 
-  return `
-  # Title ${data.title}
+  # Title ReadMe Generator
 
   ## Description
-  ${data.description}
+  This README generator is a command line application that allows the user to quickly and easily create a professional README file for current project using prompts via the command line interface. Prompts can be modified to cover a range of general questions or required info.
 
   # Table of Contents
   *  Installation 
@@ -22,20 +12,21 @@ function generateMarkdown(data) {
   *  Questions
 
   ## Installation:
-  ${data.installation} 
+  Inqurier 
   ## License:
-  ${data.license}
-  ![badge](${badges}) 
+  MIT
+  ![badge](https://img.shields.io/badge/license-MIT-red) 
   
-  ## Contributing:
-  ${data.contributing}
+  ## Contributors:
+  Just me.
   ## Tests:
-  ${data.tests}
+  none at this time.
   ## Usage:
-  ${data.usage} 
+  Every PRoject needs a ReadME. 
   ## Questions: 
-If you have any questions, you can contact the creator of this repo here: [${data.contact}](mailto:${data.contact})
-GitHub: https://github.com/${data.username}
+If you have any questions, you can contact the creator of this repo here: [mkolek7@yahoo.com](mailto:mkolek7@yahoo.com)
+GitHub: https://github.com/mkolek1015
 
-`;
-}
+## Author Info
+MIke Kolek
+

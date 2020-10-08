@@ -2,7 +2,7 @@
 // look into markdown cheatsheet to figure out how to write markdown
 function generateMarkdown(data) {
   let badges = "https://img.shields.io/badge/license-MIT-red";
-  if (data.license == "Apache") {
+  if (data.license == "Apache 2.0") {
     badges = "https://img.shields.io/badge/license-Apache-red";
   } else if (data.license == "GNU") {
     badges = "https://img.shields.io/badge/license-GNU-red";
@@ -29,15 +29,18 @@ function generateMarkdown(data) {
   ${data.license}
   ![badge](${badges}) 
   
-  ## Contributing:
-  ${data.contributing}
+  ## Contributors:
+  ${data.contributor}
   ## Tests:
   ${data.tests}
   ## Usage:
   ${data.usage} 
   ## Questions: 
-If you have any questions, you can contact the creator of this repo here: [${data.contact}](mailto:${data.contact})
+If you have any questions, you can contact the creator of this repo here: [${data.email}](mailto:${data.email})
 GitHub: https://github.com/${data.username}
+
+## Author Info
+${data.name}
 
 `;
 }
